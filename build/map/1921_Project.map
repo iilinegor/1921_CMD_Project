@@ -1,0 +1,492 @@
+Archive member included because of file (symbol)
+
+c:/qt/gcc-arm-none-eabi-4_9-2015q3-20150921-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-exit.o)
+                              c:/qt/gcc-arm-none-eabi-4_9-2015q3-20150921-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/crt0.o (exit)
+c:/qt/gcc-arm-none-eabi-4_9-2015q3-20150921-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-impure.o)
+                              c:/qt/gcc-arm-none-eabi-4_9-2015q3-20150921-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-exit.o) (_global_impure_ptr)
+c:/qt/gcc-arm-none-eabi-4_9-2015q3-20150921-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-init.o)
+                              c:/qt/gcc-arm-none-eabi-4_9-2015q3-20150921-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/crt0.o (__libc_init_array)
+c:/qt/gcc-arm-none-eabi-4_9-2015q3-20150921-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-memset.o)
+                              c:/qt/gcc-arm-none-eabi-4_9-2015q3-20150921-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/crt0.o (memset)
+c:/qt/gcc-arm-none-eabi-4_9-2015q3-20150921-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-__call_atexit.o)
+                              c:/qt/gcc-arm-none-eabi-4_9-2015q3-20150921-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-exit.o) (__call_exitprocs)
+c:/qt/gcc-arm-none-eabi-4_9-2015q3-20150921-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-atexit.o)
+                              c:/qt/gcc-arm-none-eabi-4_9-2015q3-20150921-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-__call_atexit.o) (atexit)
+c:/qt/gcc-arm-none-eabi-4_9-2015q3-20150921-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-fini.o)
+                              c:/qt/gcc-arm-none-eabi-4_9-2015q3-20150921-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-__call_atexit.o) (__libc_fini_array)
+c:/qt/gcc-arm-none-eabi-4_9-2015q3-20150921-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-__atexit.o)
+                              c:/qt/gcc-arm-none-eabi-4_9-2015q3-20150921-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-atexit.o) (__register_exitproc)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 c:/qt/gcc-arm-none-eabi-4_9-2015q3-20150921-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crti.o
+ .data          0x00000000        0x0 c:/qt/gcc-arm-none-eabi-4_9-2015q3-20150921-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crti.o
+ .bss           0x00000000        0x0 c:/qt/gcc-arm-none-eabi-4_9-2015q3-20150921-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crti.o
+ .data          0x00000000        0x4 c:/qt/gcc-arm-none-eabi-4_9-2015q3-20150921-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crtbegin.o
+ .text          0x00000000       0x74 c:/qt/gcc-arm-none-eabi-4_9-2015q3-20150921-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/crt0.o
+ .data          0x00000000        0x0 c:/qt/gcc-arm-none-eabi-4_9-2015q3-20150921-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/crt0.o
+ .bss           0x00000000        0x0 c:/qt/gcc-arm-none-eabi-4_9-2015q3-20150921-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/crt0.o
+ .ARM.extab     0x00000000        0x0 c:/qt/gcc-arm-none-eabi-4_9-2015q3-20150921-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/crt0.o
+ .ARM.exidx     0x00000000        0x8 c:/qt/gcc-arm-none-eabi-4_9-2015q3-20150921-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/crt0.o
+ .ARM.attributes
+                0x00000000       0x20 c:/qt/gcc-arm-none-eabi-4_9-2015q3-20150921-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/crt0.o
+ .text          0x00000000        0x0 Build_Results/Objects/main.c.o
+ .data          0x00000000        0x0 Build_Results/Objects/main.c.o
+ .bss           0x00000000        0x0 Build_Results/Objects/main.c.o
+ .bss.flag      0x00000000        0x4 Build_Results/Objects/main.c.o
+ .bss.Pointer_My
+                0x00000000        0x4 Build_Results/Objects/main.c.o
+ .data.x_1      0x00000000        0x4 Build_Results/Objects/main.c.o
+ .bss.arg_F1    0x00000000        0x4 Build_Results/Objects/main.c.o
+ .data.W11      0x00000000        0x4 Build_Results/Objects/main.c.o
+ .data          0x00000000        0x0 Build_Results/Objects/startup_K1921VK01T.S.o
+ .bss           0x00000000        0x0 Build_Results/Objects/startup_K1921VK01T.S.o
+ .text          0x00000000        0x0 Build_Results/Objects/Initialization.c.o
+ .data          0x00000000        0x0 Build_Results/Objects/Initialization.c.o
+ .bss           0x00000000        0x0 Build_Results/Objects/Initialization.c.o
+ .text          0x00000000        0x0 c:/qt/gcc-arm-none-eabi-4_9-2015q3-20150921-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-exit.o)
+ .data          0x00000000        0x0 c:/qt/gcc-arm-none-eabi-4_9-2015q3-20150921-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-exit.o)
+ .bss           0x00000000        0x0 c:/qt/gcc-arm-none-eabi-4_9-2015q3-20150921-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-exit.o)
+ .text.exit     0x00000000       0x20 c:/qt/gcc-arm-none-eabi-4_9-2015q3-20150921-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-exit.o)
+ .debug_frame   0x00000000       0x28 c:/qt/gcc-arm-none-eabi-4_9-2015q3-20150921-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-exit.o)
+ .ARM.attributes
+                0x00000000       0x34 c:/qt/gcc-arm-none-eabi-4_9-2015q3-20150921-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-exit.o)
+ .text          0x00000000        0x0 c:/qt/gcc-arm-none-eabi-4_9-2015q3-20150921-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-impure.o)
+ .data          0x00000000        0x0 c:/qt/gcc-arm-none-eabi-4_9-2015q3-20150921-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-impure.o)
+ .bss           0x00000000        0x0 c:/qt/gcc-arm-none-eabi-4_9-2015q3-20150921-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-impure.o)
+ .data._impure_ptr
+                0x00000000        0x4 c:/qt/gcc-arm-none-eabi-4_9-2015q3-20150921-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-impure.o)
+ .text          0x00000000        0x0 c:/qt/gcc-arm-none-eabi-4_9-2015q3-20150921-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-init.o)
+ .data          0x00000000        0x0 c:/qt/gcc-arm-none-eabi-4_9-2015q3-20150921-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-init.o)
+ .bss           0x00000000        0x0 c:/qt/gcc-arm-none-eabi-4_9-2015q3-20150921-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-init.o)
+ .text.__libc_init_array
+                0x00000000       0x50 c:/qt/gcc-arm-none-eabi-4_9-2015q3-20150921-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-init.o)
+ .debug_frame   0x00000000       0x2c c:/qt/gcc-arm-none-eabi-4_9-2015q3-20150921-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-init.o)
+ .ARM.attributes
+                0x00000000       0x34 c:/qt/gcc-arm-none-eabi-4_9-2015q3-20150921-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-init.o)
+ .text          0x00000000        0x0 c:/qt/gcc-arm-none-eabi-4_9-2015q3-20150921-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-memset.o)
+ .data          0x00000000        0x0 c:/qt/gcc-arm-none-eabi-4_9-2015q3-20150921-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-memset.o)
+ .bss           0x00000000        0x0 c:/qt/gcc-arm-none-eabi-4_9-2015q3-20150921-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-memset.o)
+ .text.memset   0x00000000       0x9c c:/qt/gcc-arm-none-eabi-4_9-2015q3-20150921-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-memset.o)
+ .debug_frame   0x00000000       0x34 c:/qt/gcc-arm-none-eabi-4_9-2015q3-20150921-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-memset.o)
+ .ARM.attributes
+                0x00000000       0x34 c:/qt/gcc-arm-none-eabi-4_9-2015q3-20150921-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-memset.o)
+ .text          0x00000000        0x0 c:/qt/gcc-arm-none-eabi-4_9-2015q3-20150921-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-__call_atexit.o)
+ .data          0x00000000        0x0 c:/qt/gcc-arm-none-eabi-4_9-2015q3-20150921-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-__call_atexit.o)
+ .bss           0x00000000        0x0 c:/qt/gcc-arm-none-eabi-4_9-2015q3-20150921-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-__call_atexit.o)
+ .text.__call_exitprocs
+                0x00000000       0xd4 c:/qt/gcc-arm-none-eabi-4_9-2015q3-20150921-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-__call_atexit.o)
+ .text          0x00000000        0x0 c:/qt/gcc-arm-none-eabi-4_9-2015q3-20150921-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-atexit.o)
+ .data          0x00000000        0x0 c:/qt/gcc-arm-none-eabi-4_9-2015q3-20150921-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-atexit.o)
+ .bss           0x00000000        0x0 c:/qt/gcc-arm-none-eabi-4_9-2015q3-20150921-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-atexit.o)
+ .text          0x00000000        0x0 c:/qt/gcc-arm-none-eabi-4_9-2015q3-20150921-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-fini.o)
+ .data          0x00000000        0x0 c:/qt/gcc-arm-none-eabi-4_9-2015q3-20150921-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-fini.o)
+ .bss           0x00000000        0x0 c:/qt/gcc-arm-none-eabi-4_9-2015q3-20150921-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-fini.o)
+ .text          0x00000000        0x0 c:/qt/gcc-arm-none-eabi-4_9-2015q3-20150921-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-__atexit.o)
+ .data          0x00000000        0x0 c:/qt/gcc-arm-none-eabi-4_9-2015q3-20150921-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-__atexit.o)
+ .bss           0x00000000        0x0 c:/qt/gcc-arm-none-eabi-4_9-2015q3-20150921-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-__atexit.o)
+ .text          0x00000000        0x0 c:/qt/gcc-arm-none-eabi-4_9-2015q3-20150921-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crtend.o
+ .data          0x00000000        0x0 c:/qt/gcc-arm-none-eabi-4_9-2015q3-20150921-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crtend.o
+ .bss           0x00000000        0x0 c:/qt/gcc-arm-none-eabi-4_9-2015q3-20150921-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crtend.o
+ .text          0x00000000        0x0 c:/qt/gcc-arm-none-eabi-4_9-2015q3-20150921-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crtn.o
+ .data          0x00000000        0x0 c:/qt/gcc-arm-none-eabi-4_9-2015q3-20150921-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crtn.o
+ .bss           0x00000000        0x0 c:/qt/gcc-arm-none-eabi-4_9-2015q3-20150921-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+FLASH            0x00000000         0x00100000         xr
+RAM              0x20000000         0x00020000         xrw
+MyRam_Memory     0x20020000         0x00010000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD c:/qt/gcc-arm-none-eabi-4_9-2015q3-20150921-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crti.o
+LOAD c:/qt/gcc-arm-none-eabi-4_9-2015q3-20150921-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crtbegin.o
+LOAD c:/qt/gcc-arm-none-eabi-4_9-2015q3-20150921-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/crt0.o
+
+.text           0x00000000      0x70c
+ *(.isr_vector)
+ .isr_vector    0x00000000      0x258 Build_Results/Objects/startup_K1921VK01T.S.o
+                0x00000000                __isr_vector
+ *(.text*)
+ .text          0x00000258       0x5c c:/qt/gcc-arm-none-eabi-4_9-2015q3-20150921-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crtbegin.o
+ .text.Delay    0x000002b4       0x3c Build_Results/Objects/main.c.o
+                0x000002b4                Delay
+ .text.LED_Init
+                0x000002f0       0x80 Build_Results/Objects/main.c.o
+                0x000002f0                LED_Init
+ .text.LED_On   0x00000370       0xb0 Build_Results/Objects/main.c.o
+                0x00000370                LED_On
+ .text.LED_Off  0x00000420       0xa4 Build_Results/Objects/main.c.o
+                0x00000420                LED_Off
+ .text.LED_Out  0x000004c4       0x44 Build_Results/Objects/main.c.o
+                0x000004c4                LED_Out
+ .text.main     0x00000508       0x78 Build_Results/Objects/main.c.o
+                0x00000508                main
+ .text          0x00000580       0x40 Build_Results/Objects/startup_K1921VK01T.S.o
+                0x00000580                Reset_Handler
+                0x000005bc                ADC_SEQ5_IRQHandler
+                0x000005bc                DebugMon_Handler
+                0x000005bc                ADC_SEQ4_IRQHandler
+                0x000005bc                USART0_TX_IRQHandler
+                0x000005bc                EPWM4_IRQHandler
+                0x000005bc                CAN5_IRQHandler
+                0x000005bc                HardFault_Handler
+                0x000005bc                EPWM1_HD_IRQHandler
+                0x000005bc                DMA1_Stream5_IRQHandler
+                0x000005bc                DMA1_Stream9_IRQHandler
+                0x000005bc                EPWM1_IRQHandler
+                0x000005bc                SysTick_Handler
+                0x000005bc                DMA1_Stream17_IRQHandler
+                0x000005bc                USART1_RX_IRQHandler
+                0x000005bc                PendSV_Handler
+                0x000005bc                NMI_Handler
+                0x000005bc                ADC_SEQ1_IRQHandler
+                0x000005bc                I2C1_IRQHandler
+                0x000005bc                CAN12_IRQHandler
+                0x000005bc                GPIO5_IRQHandler
+                0x000005bc                CAN1_IRQHandler
+                0x000005bc                DMA1_Stream12_IRQHandler
+                0x000005bc                DMA1_Stream16_IRQHandler
+                0x000005bc                USART1_E_IRQHandler
+                0x000005bc                CMP2_IRQHandler
+                0x000005bc                EPWM3_TZ_IRQHandler
+                0x000005bc                EPWM7_IRQHandler
+                0x000005bc                ADC_SEQ2_IRQHandler
+                0x000005bc                ADC_SEQ0_IRQHandler
+                0x000005bc                USART1_TX_IRQHandler
+                0x000005bc                EPWM2_TZ_IRQHandler
+                0x000005bc                EPWM1_TZ_IRQHandler
+                0x000005bc                ECAP2_IRQHandler
+                0x000005bc                DMA1_Stream2_IRQHandler
+                0x000005bc                ADC_SEQ6_IRQHandler
+                0x000005bc                DMA1_Stream15_IRQHandler
+                0x000005bc                CAN3_IRQHandler
+                0x000005bc                UsageFault_Handler
+                0x000005bc                UserFlash_IRQHandler
+                0x000005bc                GPIO6_IRQHandler
+                0x000005bc                EQEP1_IRQHandler
+                0x000005bc                SPI1_IRQHandler
+                0x000005bc                DMA1_Stream11_IRQHandler
+                0x000005bc                CAN11_IRQHandler
+                0x000005bc                GPIO1_IRQHandler
+                0x000005bc                CMP1_IRQHandler
+                0x000005bc                BootFlash_IRQHandler
+                0x000005bc                EPWM2_HD_IRQHandler
+                0x000005bc                EPWM0_TZ_IRQHandler
+                0x000005bc                USART0_MX_IRQHandler
+                0x000005bc                I2C2_IRQHandler
+                0x000005bc                EPWM2_IRQHandler
+                0x000005bc                USART3_IRQHandler
+                0x000005bc                RTC_IRQHandler
+                0x000005bc                CMP3_IRQHandler
+                0x000005bc                EPWM0_IRQHandler
+                0x000005bc                USART1_MX_IRQHandler
+                0x000005bc                ECAP3_IRQHandler
+                0x000005bc                EPWM5_TZ_IRQHandler
+                0x000005bc                EPWM7_TZ_IRQHandler
+                0x000005bc                USART0_IRQHandler
+                0x000005bc                EPWM4_TZ_IRQHandler
+                0x000005bc                DMA1_Stream6_IRQHandler
+                0x000005bc                EPWM3_IRQHandler
+                0x000005bc                EQEP0_IRQHandler
+                0x000005bc                DMA1_Stream1_IRQHandler
+                0x000005bc                GPIO2_IRQHandler
+                0x000005bc                TIM3_IRQHandler
+                0x000005bc                EPWM0_HD_IRQHandler
+                0x000005bc                ADC_SEQ3_IRQHandler
+                0x000005bc                USART2_RX_IRQHandler
+                0x000005bc                Default_Handler
+                0x000005bc                EPWM5_HD_IRQHandler
+                0x000005bc                EPWM6_TZ_IRQHandler
+                0x000005bc                USART0_E_IRQHandler
+                0x000005bc                TIM1_IRQHandler
+                0x000005bc                DMA1_Stream10_IRQHandler
+                0x000005bc                DMA1_Stream7_IRQHandler
+                0x000005bc                USART3_MX_IRQHandler
+                0x000005bc                USART2_RT_IRQHandler
+                0x000005bc                USART2_E_IRQHandler
+                0x000005bc                DMA1_Stream18_IRQHandler
+                0x000005bc                CAN13_IRQHandler
+                0x000005bc                ADC_CompInt_IRQHandler
+                0x000005bc                ECAP0_IRQHandler
+                0x000005bc                ADC_SEQ7_IRQHandler
+                0x000005bc                DMA1_Stream20_IRQHandler
+                0x000005bc                USB_IRQHandler
+                0x000005bc                EPWM8_HD_IRQHandler
+                0x000005bc                DMA1_Stream19_IRQHandler
+                0x000005bc                GPIO3_IRQHandler
+                0x000005bc                SPI2_IRQHandler
+                0x000005bc                USART0_RX_IRQHandler
+                0x000005bc                CAN14_IRQHandler
+                0x000005bc                MemManage_Handler
+                0x000005bc                CAN6_IRQHandler
+                0x000005bc                Ethernet_IRQHandler
+                0x000005bc                DMA1_Stream0_IRQHandler
+                0x000005bc                SVC_Handler
+                0x000005bc                USART3_RX_IRQHandler
+                0x000005bc                USART3_E_IRQHandler
+                0x000005bc                GPIO7_IRQHandler
+                0x000005bc                EPWM6_IRQHandler
+                0x000005bc                EPWM4_HD_IRQHandler
+                0x000005bc                CAN8_IRQHandler
+                0x000005bc                DMA1_Stream14_IRQHandler
+                0x000005bc                EPWM8_IRQHandler
+                0x000005bc                USART2_MX_IRQHandler
+                0x000005bc                CAN10_IRQHandler
+                0x000005bc                DMA1_Stream13_IRQHandler
+                0x000005bc                WWDG_IRQHandler
+                0x000005bc                CAN0_IRQHandler
+                0x000005bc                CAN15_IRQHandler
+                0x000005bc                DMA1_Stream8_IRQHandler
+                0x000005bc                USART3_RT_IRQHandler
+                0x000005bc                TIM2_IRQHandler
+                0x000005bc                ECAP4_IRQHandler
+                0x000005bc                EPWM7_HD_IRQHandler
+                0x000005bc                EPWM5_IRQHandler
+                0x000005bc                SPI0_IRQHandler
+                0x000005bc                CAN9_IRQHandler
+                0x000005bc                USART3_TX_IRQHandler
+                0x000005bc                EPWM3_HD_IRQHandler
+                0x000005bc                USART2_IRQHandler
+                0x000005bc                GPIO0_IRQHandler
+                0x000005bc                ECAP1_IRQHandler
+                0x000005bc                CAN2_IRQHandler
+                0x000005bc                CAN7_IRQHandler
+                0x000005bc                ECAP5_IRQHandler
+                0x000005bc                CAN4_IRQHandler
+                0x000005bc                DMA1_Stream21_IRQHandler
+                0x000005bc                BusFault_Handler
+                0x000005bc                USART1_IRQHandler
+                0x000005bc                DMA1_Stream23_IRQHandler
+                0x000005bc                SPI3_IRQHandler
+                0x000005bc                DMA1_Stream4_IRQHandler
+                0x000005bc                USART2_TX_IRQHandler
+                0x000005bc                USART1_RT_IRQHandler
+                0x000005bc                EPWM6_HD_IRQHandler
+                0x000005bc                DMA1_Stream22_IRQHandler
+                0x000005bc                USART0_RT_IRQHandler
+                0x000005bc                EPWM8_TZ_IRQHandler
+                0x000005bc                GPIO4_IRQHandler
+                0x000005bc                DMA1_Stream3_IRQHandler
+ .text.Init     0x000005c0       0x38 Build_Results/Objects/Initialization.c.o
+                0x000005c0                Init
+ .text.startup.register_fini
+                0x000005f8       0x14 c:/qt/gcc-arm-none-eabi-4_9-2015q3-20150921-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-__call_atexit.o)
+ .text.atexit   0x0000060c        0xc c:/qt/gcc-arm-none-eabi-4_9-2015q3-20150921-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-atexit.o)
+                0x0000060c                atexit
+ .text.__libc_fini_array
+                0x00000618       0x2c c:/qt/gcc-arm-none-eabi-4_9-2015q3-20150921-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-fini.o)
+                0x00000618                __libc_fini_array
+ .text.__register_exitproc
+                0x00000644       0xa4 c:/qt/gcc-arm-none-eabi-4_9-2015q3-20150921-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-__atexit.o)
+                0x00000644                __register_exitproc
+ *(.init)
+ .init          0x000006e8        0x4 c:/qt/gcc-arm-none-eabi-4_9-2015q3-20150921-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crti.o
+                0x000006e8                _init
+ .init          0x000006ec        0x8 c:/qt/gcc-arm-none-eabi-4_9-2015q3-20150921-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crtn.o
+ *(.fini)
+ .fini          0x000006f4        0x4 c:/qt/gcc-arm-none-eabi-4_9-2015q3-20150921-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crti.o
+                0x000006f4                _fini
+ .fini          0x000006f8        0x8 c:/qt/gcc-arm-none-eabi-4_9-2015q3-20150921-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crtn.o
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+ *(.rodata*)
+ .rodata.str1.4
+                0x00000700        0x4 c:/qt/gcc-arm-none-eabi-4_9-2015q3-20150921-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-impure.o)
+                                  0x2 (size before relaxing)
+ .rodata._global_impure_ptr
+                0x00000704        0x4 c:/qt/gcc-arm-none-eabi-4_9-2015q3-20150921-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-impure.o)
+                0x00000704                _global_impure_ptr
+ *(.eh_frame*)
+ .eh_frame      0x00000708        0x0 c:/qt/gcc-arm-none-eabi-4_9-2015q3-20150921-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crtbegin.o
+ .eh_frame      0x00000708        0x4 c:/qt/gcc-arm-none-eabi-4_9-2015q3-20150921-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crtend.o
+
+.glue_7         0x0000070c        0x0
+ .glue_7        0x00000000        0x0 linker stubs
+
+.glue_7t        0x0000070c        0x0
+ .glue_7t       0x00000000        0x0 linker stubs
+
+.vfp11_veneer   0x0000070c        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x0000070c        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.iplt           0x0000070c        0x0
+ .iplt          0x00000000        0x0 c:/qt/gcc-arm-none-eabi-4_9-2015q3-20150921-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crtbegin.o
+
+.rel.dyn        0x0000070c        0x0
+ .rel.iplt      0x00000000        0x0 c:/qt/gcc-arm-none-eabi-4_9-2015q3-20150921-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crtbegin.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x0000070c                __exidx_start = .
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x0000070c                __exidx_end = .
+                0x0000070c                __etext = .
+
+.myBufBlock     0x20020000       0x10
+ *(.myBufSection)
+ .myBufSection  0x20020000       0x10 Build_Results/Objects/main.c.o
+                0x20020000                Test_VAR1
+                0x20020004                Test_VAR3
+                0x20020008                Test_VAR2
+                0x2002000c                Test_VAR5
+
+.data           0x20000000      0x440 load address 0x0000070c
+                0x20000000                __data_start__ = .
+ *(vtable)
+ *(.data*)
+ .data.zaderzhka
+                0x20000000        0x4 Build_Results/Objects/main.c.o
+                0x20000000                zaderzhka
+ *fill*         0x20000004        0x4 
+ .data.impure_data
+                0x20000008      0x428 c:/qt/gcc-arm-none-eabi-4_9-2015q3-20150921-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-impure.o)
+                0x20000430                . = ALIGN (0x4)
+                0x20000430                PROVIDE (__preinit_array_start, .)
+ *(.preinit_array)
+                0x20000430                PROVIDE (__preinit_array_end, .)
+                0x20000430                . = ALIGN (0x4)
+                0x20000430                PROVIDE (__init_array_start, .)
+ *(SORT(.init_array.*))
+ .init_array.00000
+                0x20000430        0x4 c:/qt/gcc-arm-none-eabi-4_9-2015q3-20150921-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-__call_atexit.o)
+ *(.init_array)
+ .init_array    0x20000434        0x4 c:/qt/gcc-arm-none-eabi-4_9-2015q3-20150921-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crtbegin.o
+                0x20000438                PROVIDE (__init_array_end, .)
+                0x20000438                . = ALIGN (0x4)
+                0x20000438                PROVIDE (__fini_array_start, .)
+ *(SORT(.fini_array.*))
+ *(.fini_array)
+ .fini_array    0x20000438        0x4 c:/qt/gcc-arm-none-eabi-4_9-2015q3-20150921-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crtbegin.o
+                0x2000043c                PROVIDE (__fini_array_end, .)
+ *(.jcr*)
+ .jcr           0x2000043c        0x0 c:/qt/gcc-arm-none-eabi-4_9-2015q3-20150921-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crtbegin.o
+ .jcr           0x2000043c        0x4 c:/qt/gcc-arm-none-eabi-4_9-2015q3-20150921-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crtend.o
+                0x20000440                . = ALIGN (0x4)
+                0x20000440                __data_end__ = .
+
+.igot.plt       0x20000440        0x0 load address 0x00000b4c
+ .igot.plt      0x00000000        0x0 c:/qt/gcc-arm-none-eabi-4_9-2015q3-20150921-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crtbegin.o
+
+.bss            0x20000440       0x1c load address 0x00000b4c
+                0x20000440                . = ALIGN (0x4)
+                0x20000440                __bss_start__ = .
+ *(.bss*)
+ .bss           0x20000440       0x1c c:/qt/gcc-arm-none-eabi-4_9-2015q3-20150921-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crtbegin.o
+ *(COMMON)
+                0x2000045c                . = ALIGN (0x4)
+                0x2000045c                __bss_end__ = .
+
+.heap           0x20000460        0x0
+                0x20000460                __end__ = .
+                0x20000460                PROVIDE (end, .)
+ *(.heap*)
+ .heap          0x20000460        0x0 Build_Results/Objects/startup_K1921VK01T.S.o
+                0x20000460                __HeapLimit = .
+
+.stack_dummy    0x20000460      0xc00
+ *(.stack*)
+ .stack         0x20000460      0xc00 Build_Results/Objects/startup_K1921VK01T.S.o
+                0x20020000                __StackTop = (ORIGIN (RAM) + 0x20000)
+                0x2001f400                __StackLimit = (__StackTop - SIZEOF (.stack_dummy))
+                0x20020000                PROVIDE (__stack, __StackTop)
+                0x00000001                ASSERT ((__StackLimit >= __HeapLimit), region RAM overflowed with stack)
+LOAD Build_Results/Objects/main.c.o
+LOAD Build_Results/Objects/startup_K1921VK01T.S.o
+LOAD Build_Results/Objects/Initialization.c.o
+START GROUP
+LOAD c:/qt/gcc-arm-none-eabi-4_9-2015q3-20150921-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu\libgcc.a
+LOAD c:/qt/gcc-arm-none-eabi-4_9-2015q3-20150921-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a
+END GROUP
+LOAD c:/qt/gcc-arm-none-eabi-4_9-2015q3-20150921-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crtend.o
+LOAD c:/qt/gcc-arm-none-eabi-4_9-2015q3-20150921-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crtn.o
+OUTPUT(Build_Results/Output/K1921VK01T_Template.elf elf32-littlearm)
+
+.ARM.attributes
+                0x00000000       0x30
+ .ARM.attributes
+                0x00000000       0x22 c:/qt/gcc-arm-none-eabi-4_9-2015q3-20150921-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crti.o
+ .ARM.attributes
+                0x00000022       0x34 c:/qt/gcc-arm-none-eabi-4_9-2015q3-20150921-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crtbegin.o
+ .ARM.attributes
+                0x00000056       0x39 Build_Results/Objects/main.c.o
+ .ARM.attributes
+                0x0000008f       0x20 Build_Results/Objects/startup_K1921VK01T.S.o
+ .ARM.attributes
+                0x000000af       0x39 Build_Results/Objects/Initialization.c.o
+ .ARM.attributes
+                0x000000e8       0x34 c:/qt/gcc-arm-none-eabi-4_9-2015q3-20150921-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-impure.o)
+ .ARM.attributes
+                0x0000011c       0x34 c:/qt/gcc-arm-none-eabi-4_9-2015q3-20150921-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-__call_atexit.o)
+ .ARM.attributes
+                0x00000150       0x34 c:/qt/gcc-arm-none-eabi-4_9-2015q3-20150921-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-atexit.o)
+ .ARM.attributes
+                0x00000184       0x34 c:/qt/gcc-arm-none-eabi-4_9-2015q3-20150921-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-fini.o)
+ .ARM.attributes
+                0x000001b8       0x34 c:/qt/gcc-arm-none-eabi-4_9-2015q3-20150921-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-__atexit.o)
+ .ARM.attributes
+                0x000001ec       0x34 c:/qt/gcc-arm-none-eabi-4_9-2015q3-20150921-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crtend.o
+ .ARM.attributes
+                0x00000220       0x22 c:/qt/gcc-arm-none-eabi-4_9-2015q3-20150921-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crtn.o
+
+.comment        0x00000000       0x70
+ .comment       0x00000000       0x70 Build_Results/Objects/main.c.o
+                                 0x71 (size before relaxing)
+ .comment       0x00000000       0x71 Build_Results/Objects/Initialization.c.o
+
+.debug_info     0x00000000     0x31ed
+ .debug_info    0x00000000     0x3122 Build_Results/Objects/main.c.o
+ .debug_info    0x00003122       0x6c Build_Results/Objects/startup_K1921VK01T.S.o
+ .debug_info    0x0000318e       0x5f Build_Results/Objects/Initialization.c.o
+
+.debug_abbrev   0x00000000      0x239
+ .debug_abbrev  0x00000000      0x1dd Build_Results/Objects/main.c.o
+ .debug_abbrev  0x000001dd       0x14 Build_Results/Objects/startup_K1921VK01T.S.o
+ .debug_abbrev  0x000001f1       0x48 Build_Results/Objects/Initialization.c.o
+
+.debug_aranges  0x00000000       0x88
+ .debug_aranges
+                0x00000000       0x48 Build_Results/Objects/main.c.o
+ .debug_aranges
+                0x00000048       0x20 Build_Results/Objects/startup_K1921VK01T.S.o
+ .debug_aranges
+                0x00000068       0x20 Build_Results/Objects/Initialization.c.o
+
+.debug_ranges   0x00000000       0x48
+ .debug_ranges  0x00000000       0x38 Build_Results/Objects/main.c.o
+ .debug_ranges  0x00000038       0x10 Build_Results/Objects/Initialization.c.o
+
+.debug_line     0x00000000      0x32a
+ .debug_line    0x00000000      0x238 Build_Results/Objects/main.c.o
+ .debug_line    0x00000238       0x7d Build_Results/Objects/startup_K1921VK01T.S.o
+ .debug_line    0x000002b5       0x75 Build_Results/Objects/Initialization.c.o
+
+.debug_str      0x00000000     0x14ae
+ .debug_str     0x00000000     0x148a Build_Results/Objects/main.c.o
+                               0x14dd (size before relaxing)
+ .debug_str     0x0000148a       0x24 Build_Results/Objects/Initialization.c.o
+                                0x133 (size before relaxing)
+
+.debug_frame    0x00000000      0x1f0
+ .debug_frame   0x00000000       0xe8 Build_Results/Objects/main.c.o
+ .debug_frame   0x000000e8       0x30 Build_Results/Objects/Initialization.c.o
+ .debug_frame   0x00000118       0x50 c:/qt/gcc-arm-none-eabi-4_9-2015q3-20150921-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-__call_atexit.o)
+ .debug_frame   0x00000168       0x20 c:/qt/gcc-arm-none-eabi-4_9-2015q3-20150921-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-atexit.o)
+ .debug_frame   0x00000188       0x34 c:/qt/gcc-arm-none-eabi-4_9-2015q3-20150921-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-fini.o)
+ .debug_frame   0x000001bc       0x34 c:/qt/gcc-arm-none-eabi-4_9-2015q3-20150921-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc.a(lib_a-__atexit.o)

@@ -474,7 +474,7 @@ LOAD /opt/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/
 END GROUP
 LOAD /opt/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crtend.o
 LOAD /opt/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crtn.o
-OUTPUT(Build_Results/Output/K1921VK01T_program.elf elf32-littlearm)
+OUTPUT(Build_Results/Output/K1921VK01Tprogram.elf elf32-littlearm)
 
 .ARM.attributes
                 0x0000000000000000       0x30

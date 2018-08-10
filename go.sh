@@ -13,14 +13,16 @@ make>$logout #all messages redirect to log file
 echo -e "Run..."
 ############################################################################################################################
 ############################################ RUN OpenOCD and GDB using tmux ################################################
-name_out_file=$(grep 'hexname' $logout) #searching name of output file (hex or elf)                                      ###
-name_out_file2=$(echo ${name_out_file/hexname/}) #selecting a name of output file                                        ###
-tmux new-session -s myses -d #create a session                                                                           ###
-tmux split-window -h -t myses:0 #split-window (vertical)                                                                 ###
-tmux send-keys -t myses:0.0 cd space ~/openocd enter sudo space openocd enter #run openocd                               ###
-tmux send-keys -t myses:0.1 arm-none-eabi-gdb space -x space .gdbinit space $hexpath/$name_out_file2.elf enter #run gdb  ###
-tmux send-keys -t myses:0.1 enter #for start gdb-debug                                                                   ###
-tmux -2 attach-session -t myses #don't close a session                                                                   ###
+############################################################################################################################
+name_out_file=$(grep 'hexname' $logout) #searching name of output file (hex or elf)
+name_out_file2=$(echo ${name_out_file/hexname/}) #selecting a name of output file
+tmux new-session -s myses -d #create a session
+tmux split-window -h -t myses:0 #split-window (vertical)
+tmux send-keys -t myses:0.0 cd space ~/openocd enter sudo space openocd enter #run openocd
+tmux send-keys -t myses:0.1 arm-none-eabi-gdb space -x space .gdbinit space $hexpath/$name_out_file2.elf enter #run gdb
+tmux send-keys -t myses:0.1 enter #for start gdb-debug
+tmux -2 attach-session -t myses #don't close a session
+############################################################################################################################
 ############################################################################################################################
 ############################################################################################################################
 ;;
@@ -31,14 +33,16 @@ make>>$logout #all messages redirect to log file
 echo -e "Run..."
 ############################################################################################################################
 ############################################ RUN OpenOCD and GDB using tmux ################################################
-name_out_file=$(grep 'hexname' $logout) #searching name of output file (hex or elf)                                      ###
-name_out_file2=$(echo ${name_out_file/hexname/}) #selecting a name of output file                                        ###
-tmux new-session -s myses -d #create a session                                                                           ###
-tmux split-window -h -t myses:0 #split-window (vertical)                                                                 ###
-tmux send-keys -t myses:0.0 cd space ~/openocd enter sudo space openocd enter #run openocd                               ###
-tmux send-keys -t myses:0.1 arm-none-eabi-gdb space -x space .gdbinit space $hexpath/$name_out_file2.elf enter #run gdb  ###
-tmux send-keys -t myses:0.1 enter #for start gdb-debug                                                                   ###
-tmux -2 attach-session -t myses #don't close a session                                                                   ###
+############################################################################################################################
+name_out_file=$(grep 'hexname' $logout) #searching name of output file (hex or elf)
+name_out_file2=$(echo ${name_out_file/hexname/}) #selecting a name of output file
+tmux new-session -s myses -d #create a session
+tmux split-window -h -t myses:0 #split-window (vertical)
+tmux send-keys -t myses:0.0 cd space ~/openocd enter sudo space openocd enter #run openocd
+tmux send-keys -t myses:0.1 arm-none-eabi-gdb space -x space .gdbinit space $hexpath/$name_out_file2.elf enter #run gdb
+tmux send-keys -t myses:0.1 enter #for start gdb-debug
+tmux -2 attach-session -t myses #don't close a session
+############################################################################################################################
 ############################################################################################################################
 ############################################################################################################################
 ;;
@@ -55,14 +59,16 @@ make>>$logout #all messages redirect to log file
 echo -e "\nRun..."
 ############################################################################################################################
 ############################################ RUN OpenOCD and GDB using tmux ################################################
-name_out_file=$(grep 'hexname' $logout) #searching name of output file (hex or elf)                                      ###
-name_out_file2=$(echo ${name_out_file/hexname/}) #selecting a name of output file                                        ###
-tmux new-session -s myses -d #create a session                                                                           ###
-tmux split-window -h -t myses:0 #split-window (vertical)                                                                 ###
-tmux send-keys -t myses:0.0 cd space ~/openocd enter sudo space openocd enter #run openocd                               ###
-tmux send-keys -t myses:0.1 arm-none-eabi-gdb space -x space .gdbinit space $hexpath/$name_out_file2.elf enter #run gdb  ###
-tmux send-keys -t myses:0.1 enter #for start gdb-debug                                                                   ###
-tmux -2 attach-session -t myses #don't close a session                                                                   ###
+############################################################################################################################
+name_out_file=$(grep 'hexname' $logout) #searching name of output file (hex or elf)
+name_out_file2=$(echo ${name_out_file/hexname/}) #selecting a name of output file
+tmux new-session -s myses -d #create a session 
+tmux split-window -h -t myses:0 #split-window (vertical) 
+tmux send-keys -t myses:0.0 cd space ~/openocd enter sudo space openocd enter #run openocd 
+tmux send-keys -t myses:0.1 arm-none-eabi-gdb space -x space .gdbinit space $hexpath/$name_out_file2.elf enter #run gdb
+tmux send-keys -t myses:0.1 enter #for start gdb-debug 
+tmux -2 attach-session -t myses #don't close a session 
+############################################################################################################################
 ############################################################################################################################
 ############################################################################################################################
 esac

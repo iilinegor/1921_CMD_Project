@@ -32,7 +32,7 @@ echo "PATH=$PATH:$path_of_gcc_bin_directory2" >> $path_of_profile_cfg
 ######################################################## INSTALL OpenOCD with JTAG ###########################################################
 ##############################################################################################################################################
 echo -e "\nInstall OpenOCD\n"
-sudo apt-get install libtool autoconf texinfo libusb-dev libusb-1.0-0-dev #install dependencies
+sudo apt-get install libtool autoconf texinfo libusb-dev libusb-1.0-0-dev -y #install dependencies
 cd $HOME
 git clone git://git.code.sf.net/p/openocd/code openocd  #clone repository
 #according to readme of openocd
@@ -53,7 +53,7 @@ echo "%$USER ALL=(ALL) NOPASSWD: /usr/local/bin/gcc" | sudo EDITOR='tee -a' visu
 ######################################################## Install TMUX ########################################################################
 ##############################################################################################################################################
 echo -e "\nInstall TMUX\n"
-sudo apt-get install tmux
+sudo apt-get install tmux -y 
 cd $HOME
 echo "set-option -g mouse on">>.tmux.conf
 echo "bind -n WheelUpPane if-shell -F -t = \"#{mouse_any_flag}\" \"send-keys -M\" \"if -Ft= '#{pane_in_mode}' 'send-keys -M' 'select-pane -t=; copy-mode -e; send-keys -M'\"">>.tmux.conf

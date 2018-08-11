@@ -3,7 +3,7 @@
 path_of_openocd_target=~/openocd/tcl/target
 path_of_openocd_interface=~/openocd/tcl/interface
 
-#enter path to your project
+#analyzis path to your project
 cd ..
 path_to_project=$(pwd)
 path_of_install_workspace=$path_to_project/Install_Workspace

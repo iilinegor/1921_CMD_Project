@@ -148,7 +148,7 @@ LOAD /opt/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/
 LOAD /opt/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crtbegin.o
 LOAD /opt/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/crt0.o
 
-.text           0x0000000000000000      0x720
+.text           0x0000000000000000      0x724
  *(.isr_vector)
  .isr_vector    0x0000000000000000      0x258 Build_Results/Objects/K1921VK01T.o
                 0x0000000000000000                __isr_vector
@@ -314,32 +314,32 @@ LOAD /opt/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/
  .text.LED_Out  0x0000000000000524       0x46 Build_Results/Objects/main.o
                 0x0000000000000524                LED_Out
  *fill*         0x000000000000056a        0x2 
- .text.main     0x000000000000056c       0x78 Build_Results/Objects/main.o
+ .text.main     0x000000000000056c       0x7c Build_Results/Objects/main.o
                 0x000000000000056c                main
  .text.startup.register_fini
-                0x00000000000005e4       0x14 /opt/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-__call_atexit.o)
- .text.atexit   0x00000000000005f8        0xc /opt/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-atexit.o)
-                0x00000000000005f8                atexit
+                0x00000000000005e8       0x14 /opt/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-__call_atexit.o)
+ .text.atexit   0x00000000000005fc        0xc /opt/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-atexit.o)
+                0x00000000000005fc                atexit
  .text.__libc_fini_array
-                0x0000000000000604       0x34 /opt/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-fini.o)
-                0x0000000000000604                __libc_fini_array
+                0x0000000000000608       0x34 /opt/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-fini.o)
+                0x0000000000000608                __libc_fini_array
  .text.__retarget_lock_acquire_recursive
-                0x0000000000000638        0x4 /opt/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-lock.o)
-                0x0000000000000638                __retarget_lock_acquire_recursive
- .text.__retarget_lock_release_recursive
                 0x000000000000063c        0x4 /opt/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-lock.o)
-                0x000000000000063c                __retarget_lock_release_recursive
+                0x000000000000063c                __retarget_lock_acquire_recursive
+ .text.__retarget_lock_release_recursive
+                0x0000000000000640        0x4 /opt/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-lock.o)
+                0x0000000000000640                __retarget_lock_release_recursive
  .text.__register_exitproc
-                0x0000000000000640       0xc0 /opt/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-__atexit.o)
-                0x0000000000000640                __register_exitproc
+                0x0000000000000644       0xc0 /opt/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-__atexit.o)
+                0x0000000000000644                __register_exitproc
  *(.init)
- .init          0x0000000000000700        0x4 /opt/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crti.o
-                0x0000000000000700                _init
- .init          0x0000000000000704        0x8 /opt/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crtn.o
+ .init          0x0000000000000704        0x4 /opt/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crti.o
+                0x0000000000000704                _init
+ .init          0x0000000000000708        0x8 /opt/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crtn.o
  *(.fini)
- .fini          0x000000000000070c        0x4 /opt/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crti.o
-                0x000000000000070c                _fini
- .fini          0x0000000000000710        0x8 /opt/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crtn.o
+ .fini          0x0000000000000710        0x4 /opt/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crti.o
+                0x0000000000000710                _fini
+ .fini          0x0000000000000714        0x8 /opt/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crtn.o
  *crtbegin.o(.ctors)
  *crtbegin?.o(.ctors)
  *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
@@ -352,38 +352,38 @@ LOAD /opt/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/
  *(.dtors)
  *(.rodata*)
  .rodata._global_impure_ptr
-                0x0000000000000718        0x4 /opt/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-impure.o)
-                0x0000000000000718                _global_impure_ptr
+                0x000000000000071c        0x4 /opt/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-impure.o)
+                0x000000000000071c                _global_impure_ptr
  *(.eh_frame*)
- .eh_frame      0x000000000000071c        0x0 /opt/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crtbegin.o
- .eh_frame      0x000000000000071c        0x4 /opt/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crtend.o
+ .eh_frame      0x0000000000000720        0x0 /opt/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crtbegin.o
+ .eh_frame      0x0000000000000720        0x4 /opt/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crtend.o
 
-.glue_7         0x0000000000000720        0x0
- .glue_7        0x0000000000000720        0x0 linker stubs
+.glue_7         0x0000000000000724        0x0
+ .glue_7        0x0000000000000724        0x0 linker stubs
 
-.glue_7t        0x0000000000000720        0x0
- .glue_7t       0x0000000000000720        0x0 linker stubs
+.glue_7t        0x0000000000000724        0x0
+ .glue_7t       0x0000000000000724        0x0 linker stubs
 
-.vfp11_veneer   0x0000000000000720        0x0
- .vfp11_veneer  0x0000000000000720        0x0 linker stubs
+.vfp11_veneer   0x0000000000000724        0x0
+ .vfp11_veneer  0x0000000000000724        0x0 linker stubs
 
-.v4_bx          0x0000000000000720        0x0
- .v4_bx         0x0000000000000720        0x0 linker stubs
+.v4_bx          0x0000000000000724        0x0
+ .v4_bx         0x0000000000000724        0x0 linker stubs
 
-.iplt           0x0000000000000720        0x0
- .iplt          0x0000000000000720        0x0 /opt/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crtbegin.o
+.iplt           0x0000000000000724        0x0
+ .iplt          0x0000000000000724        0x0 /opt/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crtbegin.o
 
-.rel.dyn        0x0000000000000720        0x0
- .rel.iplt      0x0000000000000720        0x0 /opt/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crtbegin.o
+.rel.dyn        0x0000000000000724        0x0
+ .rel.iplt      0x0000000000000724        0x0 /opt/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crtbegin.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x0000000000000720                __exidx_start = .
+                0x0000000000000724                __exidx_start = .
 
 .ARM.exidx
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
-                0x0000000000000720                __exidx_end = .
-                0x0000000000000720                __etext = .
+                0x0000000000000724                __exidx_end = .
+                0x0000000000000724                __etext = .
 
 .myBufBlock     0x0000000020020000       0x10
  *(.myBufSection)
@@ -393,7 +393,7 @@ LOAD /opt/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/
                 0x0000000020020008                Test_VAR2
                 0x000000002002000c                Test_VAR5
 
-.data           0x0000000020000000      0x440 load address 0x0000000000000720
+.data           0x0000000020000000      0x440 load address 0x0000000000000724
                 0x0000000020000000                __data_start__ = .
  *(vtable)
  *(.data*)
@@ -428,10 +428,10 @@ LOAD /opt/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/
                 0x0000000020000440                . = ALIGN (0x4)
                 0x0000000020000440                __data_end__ = .
 
-.igot.plt       0x0000000020000440        0x0 load address 0x0000000000000b60
+.igot.plt       0x0000000020000440        0x0 load address 0x0000000000000b64
  .igot.plt      0x0000000020000440        0x0 /opt/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crtbegin.o
 
-.bss            0x0000000020000440       0x40 load address 0x0000000000000b60
+.bss            0x0000000020000440       0x40 load address 0x0000000000000b64
                 0x0000000020000440                . = ALIGN (0x4)
                 0x0000000020000440                __bss_start__ = .
  *(.bss*)

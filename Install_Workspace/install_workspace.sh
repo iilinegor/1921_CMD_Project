@@ -53,7 +53,7 @@ echo "%$USER ALL=(ALL) NOPASSWD: /usr/local/bin/gcc" | sudo EDITOR='tee -a' visu
 ######################################################## Install TMUX ########################################################################
 ##############################################################################################################################################
 echo -e "\nInstall TMUX\n"
-apt-get install tmux
+sudo apt-get install tmux
 cd $HOME
 echo "set-option -g mouse on">>.tmux.conf
 echo "bind -n WheelUpPane if-shell -F -t = \"#{mouse_any_flag}\" \"send-keys -M\" \"if -Ft= '#{pane_in_mode}' 'send-keys -M' 'select-pane -t=; copy-mode -e; send-keys -M'\"">>.tmux.conf

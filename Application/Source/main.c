@@ -153,7 +153,7 @@ int main()
             else if   (num < 0) { dir =  1; num =  1;         }
 
                 zaderzhka++;
-                if (zaderzhka >= 1)zaderzhka = 0;
+                if (zaderzhka >= 1000)zaderzhka = 0;
                 //k+=0.1f;
                 //if (k>=5.5f) k=5.5f;
             LED_On (num);

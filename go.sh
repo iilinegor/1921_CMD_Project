@@ -1,10 +1,13 @@
 #!/bin/bash
 set -e
+#find path to project form log-file of configure_workspace script
+path_to_project=$(cat $(find -name prj_path.log))
+
 echo -e "Choose number of operation:\n1)Incremental rebuild and run\n2)Rebuild all and run\n3)Incremental build without run\n4)Rebuild all without run\n5)Run"
 echo "Enter your choice:"
 read type_of_operation
-logout=./Build_Results/Output/out.log #for output log file
-hexpath=./Build_Results/Output #path of output file (hex,elf)
+logout=$path_to_project/Build_Results/Output/out.log #for output log file
+hexpath=$path_to_project/Build_Results/Output #path of output file (hex,elf)
 
 case "$type_of_operation" in
 "1")
